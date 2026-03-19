@@ -15,21 +15,19 @@
 
 body {
     height: 100vh;
-    --right = 65vw;
 }
 
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 35% 65%;
     height: 100vh;
 }
 
 .left{
-    flex: 1;
     background: no-repeat center/cover url(./halie-west-25xggax4bSA-unsplash.jpg);
     position: relative;
     text-align: center;
-    color: white;
-    width: 40vw;
+    color: white; 
 }
 
 .left a {
@@ -53,7 +51,6 @@ body {
 }
 
 .logo {
-    height: 30px;
     font-size: 3rem;
     letter-spacing: 5px;
     font-family: 'myCustomFont';
@@ -61,12 +58,12 @@ body {
 
 .credit {
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
     width: 100%;
 }
 
 .right {
-    width: 65vw;
+    
 }
 
 .form-portion {
